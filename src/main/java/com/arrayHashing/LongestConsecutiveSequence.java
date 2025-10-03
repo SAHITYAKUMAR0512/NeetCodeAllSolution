@@ -36,7 +36,6 @@ public class LongestConsecutiveSequence {
 		        System.out.println(finalList);
 		        Long long1 = finalList.stream().map(li->li.stream().count()).max(Comparator.naturalOrder()).get();
 		        int intValue = long1.intValue();
-		             
 		        return  intValue;
 	    }
 
